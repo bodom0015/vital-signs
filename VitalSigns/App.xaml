@@ -1,0 +1,12 @@
+﻿<Application x:Class="VitalSigns.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:VitalSigns.Views"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:DebugDataBindingConverter x:Key="DebugConverter" />
+        <local:VisibilityConverter x:Key="VisibilityConverter" />
+        <local:NullVisibilityConverter x:Key="NullVisibilityConverter" />
+        <local:TextColorConverter x:Key="TextColorConverter" />
+    </Application.Resources>
+</Application>
