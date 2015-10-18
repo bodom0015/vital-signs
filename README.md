@@ -16,4 +16,4 @@ git clone https://github.com/bodom0015/vital-signs.git
 
 ## License
 
-Seriously? It's a log parser... go nuts.
+MIT
